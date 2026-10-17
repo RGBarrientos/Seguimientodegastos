@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:columnOrderPreserved="false"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingLeft="@dimen/margen"
+    android:paddingTop="@dimen/margen"
+    android:paddingRight="@dimen/margen"
+    android:paddingBottom="@dimen/margen"
+    tools:context=".ui.EstSemanalFragment">
+
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/menu_est"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/gastosEstBtn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:text="@string/menu_gastos" />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/graficoBarras"
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+
+
+        android:padding="@dimen/margenProgressBar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:columnCount="2"
+            app:useDefaultMargins="true">
+
+            <TextView
+                android:id="@+id/DiaTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/GastoTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/PresupuestoTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/diaTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/dia7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="center_vertical"
+                app:layout_rowSpan="2" />
+
+            <TextView
+                android:id="@+id/gastoTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/menu_gastos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/presupuestoTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/presupuesto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_gravity="end" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+</LinearLayout>

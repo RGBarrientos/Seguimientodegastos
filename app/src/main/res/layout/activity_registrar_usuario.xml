@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margen"
+    tools:context=".RegistrarUsuario">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="85dp" />
+
+    <TextView
+        android:id="@+id/nuevoUsuarioTextView"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/nuevoUsuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/PaddingHorizontal32"
+        android:paddingRight="@dimen/PaddingHorizontal32">
+
+        <EditText
+            android:id="@+id/nuevoNombreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MargenVertical16"
+            android:layout_marginBottom="@dimen/MargenVertical16"
+            android:ems="10"
+            android:hint="@string/nombre_hint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nuevaPassEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MargenVertical16"
+            android:layout_marginBottom="@dimen/MargenVertical16"
+            android:ems="10"
+            android:hint="@string/pass_hint"
+            android:inputType="textPersonName"
+            android:password="true" />
+
+        <EditText
+            android:id="@+id/confirmarPassEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MargenVertical16"
+            android:layout_marginBottom="@dimen/MargenVertical16"
+            android:ems="10"
+            android:hint="@string/pass_rep_hint"
+            android:inputType="textPersonName"
+            android:password="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confRegistroTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/crearUsuarioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/crear_usuario" />
+
+    <Button
+        android:id="@+id/nuevoUsuarioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/volver_login_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#3F51B5"
+        app:backgroundTint="@color/material_on_surface_stroke" />
+
+</LinearLayout>

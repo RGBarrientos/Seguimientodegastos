@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margen">16dp</dimen>
+    <dimen name="progressBarLargo">250dp</dimen>
+    <dimen name="margenProgressBar">4dp</dimen>
+    <!-- ricky. -->
+    <dimen name="padding_horizontal_32" />
+    <dimen name="PaddingHorizontal32">32dp</dimen>
+    <dimen name="MargenVertical16">16dp</dimen>
+    <dimen name="MargenPeq">5dp</dimen>
+    <dimen name="MargenPeq2">10dp</dimen>
+</resources>

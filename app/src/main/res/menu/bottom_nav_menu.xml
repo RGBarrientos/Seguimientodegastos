@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_gastos"
+        android:icon="@drawable/baseline_gastos_on_24"
+        android:title="@string/menu_gastos" />
+    <item
+        android:id="@+id/navigation_est"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/menu_est" />
+
+    <item
+        android:id="@+id/navigation_metas"
+        android:icon="@drawable/baseline_grade_24"
+        android:title="@string/menu_metas" />
+
+    <item
+        android:id="@+id/navigation_categorias"
+        android:icon="@drawable/baseline_categorias_24"
+        android:title="@string/menu_categ" />
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardEst"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/CategoriaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoria1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <ProgressBar
+                android:id="@+id/CategoriaProgressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margenProgressBar"
+                android:layout_marginLeft="@dimen/margenProgressBar"
+                android:layout_marginEnd="@dimen/margenProgressBar"
+                android:layout_marginRight="@dimen/margenProgressBar"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/ejemplo"
+                app:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/GastoPTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="50"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

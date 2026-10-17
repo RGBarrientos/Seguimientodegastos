@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Seguimiento de gastos</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu_metas">Metas</string>
+    <string name="menu_est">Estadísticas</string>
+    <string name="menu_gastos">Gastos</string>
+    <string name="menu_categ">Categorias</string>
+    <string name="LogIn">Inicio de sesión</string>
+    <string name="nombre_login">Correo:</string>
+    <string name="pass_login">Contraseña</string>
+    <string name="ingreso_login">Ingresar</string>
+    <!-- fragmento estadisticas -->
+    <string name="categoria1">Trabajo</string>
+    <string name="categoria2">Estudio</string>
+    <string name="categoria3">Juegos</string>
+    <string-array name="diasSemana">[lunes,martes,miercoles,jueves,viernes,sabado,domingo]</string-array>
+    <string name="dia1">Lunes</string>
+    <string name="dia2">Martes</string>
+    <string name="dia3">Miércoles</string>
+    <string name="dia4">Jueves</string>
+    <string name="dia5">Viernes</string>
+    <string name="dia6">Sabado</string>
+    <string name="dia7">Domingo</string>
+    <!--Lim -->
+    <string name="titulo_dialogo_color_fondo">Elija el color de fondo</string>
+    <string name="boton_establecer_color_fondo">Establecer color de fondo</string>
+    <!-- Ricky -->
+    <string name="nombre_hint">Introduzca su correo</string>
+    <string name="pass_hint">Introduzca su contraseña (6 caracteres min)</string>
+    <string name="pass_rep_hint">Confirme la contraseña</string>
+    <string name="agregarMButton">Nueva meta</string>
+    <string name="agregar_meta">Crear meta</string>
+    <string name="nueva_meta">Agregar una nueva meta</string>
+    <string name="nombreNM">Nombre:</string>
+    <string name="fechaIniNM">Fecha inicio:</string>
+    <string name="fechaFinNM">Fecha final:</string>
+    <string name="metaNM">Objetivo:</string>
+    <string name="subTituloMetas">Metas</string>
+    <string name="crear_usuario">Crear</string>
+    <string name="nuevo_usuario_button">Crear nuevo usuario</string>
+    <string name="inicio_meta">"Inicio: "</string>
+    <string name="fin_meta">"Fin: "</string>
+    <string name="nuevoUsuario">Crear nuevo usuario</string>
+    <string name="meta_pendiente">Pendiente: %d</string>
+    <string name="meta_total">Total: %d</string>
+    <string name="menu_cerrarS">Cerrar sesión</string>
+
+    <string name="misaldo">Mi Saldo</string>
+    <string name="saldo">0.00</string>
+    <string name="gastos_totales">Gastos Totales: </string>
+    <string name="gastos_totales_moneda">0.00</string>
+    <string name="btn_nuevo_gasto">Nuevo Gasto</string>
+    <string name="buttom_agregar_cate">Aregar Categoria</string>
+    <string name="des_edittext">Nombre nueva categoria</string>
+    <string name="agregar_cat">Agregar Categoría</string>
+    <string name="icono">Icono</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="presupuesto">Presupuesto:</string>
+
+    <string name="volver_login_button">Volver</string>
+
+
+    <string name="registro_exitoso">Registrado exitosamente</string>
+    <string name="registro_falla_pass">Las contraseñas no coinciden</string>
+    <string name="registro_existe">El usuario ya existe</string>
+</resources>
